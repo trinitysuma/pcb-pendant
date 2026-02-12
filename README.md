@@ -10,6 +10,8 @@ Following the PCB schematic given by 555timerCES.kicad_sch, arrange the board in
 
 Outline your board on the Edge_Cuts layer using the shape tools. If you'd like to use a custom shape, scale an SVG onto the layer. I used a heart.
 
+This part was difficult.  It can take trial and error to ensure the components can be traced together.
+
 ### Milling the board
 Before beginning the milling process, follow the PCB_TO_EASEL_USE_GUIDE to properly set up the script. Note that it may need to be performed on a Mac. Once set up, run pcb_to_easel to convert your KiCAD files into SVGs. Mine are visible in the svg folder.
 
@@ -18,6 +20,8 @@ Follow this tutorial to mill your board: https://youtu.be/hbWzbn1Lfh0?si=3f0u7-S
 You will need three drill bits: 1 V-bit, 1 0.8mm drill bit, and 1 1/8 in straight end bit.
 
 Once the milling is complete, sand down the tabs on your board to your desired shape.
+
+Be mindful of the milling depth!  Some traces took a few attempts to create.
 
 ### Building the board
 Refer to the original KiCAD schematic and design to place your electrical components. 
@@ -33,6 +37,8 @@ You will need:
 To determine the values of your second capacitor and two resistors, reference this site: https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/
 
 Solder your components in place. Use a multimeter to check your connections.
+
+Soldering was difficult given the dimensionality of the components.  It is important to ensure the solder doesn't spill over into other traces.  Components like the battery need a lot of extra solder to make them stick.  You can do it!  
 
 Insert your battery to see the LED flash!
 
