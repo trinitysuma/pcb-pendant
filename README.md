@@ -14,12 +14,14 @@ Outline your board on the Edge_Cuts layer using the shape tools. If you'd like t
 Before beginning the milling process, follow the PCB_TO_EASEL_USE_GUIDE to properly set up the script. Note that it may need to be performed on a Mac. Once set up, run pcb_to_easel to convert your KiCAD files into SVGs. Mine are visible in the svg folder.
 
 Follow this tutorial to mill your board: https://youtu.be/hbWzbn1Lfh0?si=3f0u7-S7WB8Pco6x
+
 You will need three drill bits: 1 V-bit, 1 0.8mm drill bit, and 1 1/8 in straight end bit.
 
 Once the milling is complete, sand down the tabs on your board to your desired shape.
 
 ### Building the board
 Refer to the original KiCAD schematic and design to place your electrical components. 
+
 You will need:
 * 3V battery + holder
 * 1 10uF capacitor
@@ -27,6 +29,7 @@ You will need:
 * 1 470R resistor
 * 1 capacitor of your choosing (I used 4.7uF)
 * 2 resistors of your choosing (I used 4.7K and 68K)
+  
 To determine the values of your second capacitor and two resistors, reference this site: https://www.allaboutcircuits.com/tools/555-timer-astable-circuit/
 
 Solder your components in place. Use a multimeter to check your connections.
