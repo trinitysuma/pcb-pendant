@@ -36,5 +36,5 @@ Solder your components in place. Use a multimeter to check your connections.
 
 Insert your battery to see the LED flash!
 
-Final product: ![IMG_5170](https://github.com/user-attachments/assets/de828b8b-b2f6-42cb-89d1-b88be7f32686)
+Final product: <img src="https://github.com/user-attachments/assets/de828b8b-b2f6-42cb-89d1-b88be7f32686" width="50%" />
 
